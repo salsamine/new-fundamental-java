@@ -11,8 +11,10 @@ public class soal_function {
 
         belajar.tampilkanPesanan();
 
-        belajar.hitungTotalBayar();
-    }
+      int hitungTotalBayar= belajar.hitungTotalBayar(18000, 2);
+
+        System.out.println("Total bayar : " + hitungTotalBayar);
+;}
     public void tampilkanHeader(){
         System.out.print(" soal nomor 1.1 ");
         System.out.print("==========================================");
@@ -30,12 +32,10 @@ public class soal_function {
      }
 
     int hargaSatuan = 18000;
-    int jumlah =2;
-    int totalBayar = belajar.hitungTotalBayar(18000, 2);
 
-    public void hitungTotalBayar(){
+    public int hitungTotalBayar(int hargaSatuan, int jumlah){
         System.out.println("soal nomor 1.3");
-        System.out.println("Total Bayar : ")
+        return hargaSatuan * jumlah;
     }
 
 
