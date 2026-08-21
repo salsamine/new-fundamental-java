@@ -16,11 +16,11 @@ public class soal_function {
         System.out.println("Total bayar : " + hitungTotalBayar);
 ;}
     public void tampilkanHeader(){
-        System.out.print(" soal nomor 1.1 ");
-        System.out.print("==========================================");
+        System.out.println(" soal nomor 1.1 ");
+        System.out.println("==========================================");
         System.out.println("             KOPI KITA                  ");
-        System.out.print("          Buka jam 08:00 - 22.00          ");
-        System.out.print("==========================================");
+        System.out.println("          Buka jam 08:00 - 22.00          ");
+        System.out.println("==========================================");
     }
 
     String menu ="Kopi Susu";
@@ -28,7 +28,7 @@ public class soal_function {
     public void tampilkanPesanan(){
         System.out.println("soal nomor 1.2");
         System.out.println("Menu : " + menu);
-        System.out.print("Jumlah : " + jumlah +  " gelas");
+        System.out.println("Jumlah : " + jumlah +  " gelas");
      }
 
     int hargaSatuan = 18000;
